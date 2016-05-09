@@ -1,0 +1,125 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: gh0st - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/gh0st.res" /d "NDEBUG" "C:\Documents and Settings\Administrator\桌面\Gh0st3.6自删除\Gh0st3.6自删除\gh0st\gh0st.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP3DC.tmp" with contents
+[
+/nologo /MD /GX /O2 /I "../common" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Release/" /Fp"Release/gh0st.pch" /YX"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Documents and Settings\Administrator\桌面\Gh0st3.6自删除\Gh0st3.6自删除\common\Audio.cpp"
+"C:\Documents and Settings\Administrator\桌面\Gh0st3.6自删除\Gh0st3.6自删除\gh0st\AudioDlg.cpp"
+"C:\Documents and Settings\Administrator\桌面\Gh0st3.6自删除\Gh0st3.6自删除\gh0st\BmpToAvi.cpp"
+"C:\Documents and Settings\Administrator\桌面\Gh0st3.6自删除\Gh0st3.6自删除\gh0st\include\Buffer.cpp"
+"C:\Documents and Settings\Administrator\桌面\Gh0st3.6自删除\Gh0st3.6自删除\gh0st\BuildServer.cpp"
+"C:\Documents and Settings\Administrator\桌面\Gh0st3.6自删除\Gh0st3.6自删除\gh0st\include\CpuUsage.cpp"
+"C:\Documents and Settings\Administrator\桌面\Gh0st3.6自删除\Gh0st3.6自删除\gh0st\FileManagerDlg.cpp"
+"C:\Documents and Settings\Administrator\桌面\Gh0st3.6自删除\Gh0st3.6自删除\gh0st\FileTransferModeDlg.cpp"
+"C:\Documents and Settings\Administrator\桌面\Gh0st3.6自删除\Gh0st3.6自删除\gh0st\gh0st.cpp"
+"C:\Documents and Settings\Administrator\桌面\Gh0st3.6自删除\Gh0st3.6自删除\gh0st\gh0stDoc.cpp"
+"C:\Documents and Settings\Administrator\桌面\Gh0st3.6自删除\Gh0st3.6自删除\gh0st\gh0stView.cpp"
+"C:\Documents and Settings\Administrator\桌面\Gh0st3.6自删除\Gh0st3.6自删除\gh0st\IniFile.cpp"
+"C:\Documents and Settings\Administrator\桌面\Gh0st3.6自删除\Gh0st3.6自删除\gh0st\InputDlg.cpp"
+"C:\Documents and Settings\Administrator\桌面\Gh0st3.6自删除\Gh0st3.6自删除\gh0st\include\IOCPServer.cpp"
+"C:\Documents and Settings\Administrator\桌面\Gh0st3.6自删除\Gh0st3.6自删除\gh0st\KeyBoardDlg.cpp"
+"C:\Documents and Settings\Administrator\桌面\Gh0st3.6自删除\Gh0st3.6自删除\gh0st\MainFrm.cpp"
+"C:\Documents and Settings\Administrator\桌面\Gh0st3.6自删除\Gh0st3.6自删除\gh0st\ScreenSpyDlg.cpp"
+"C:\Documents and Settings\Administrator\桌面\Gh0st3.6自删除\Gh0st3.6自删除\gh0st\Settings.cpp"
+"C:\Documents and Settings\Administrator\桌面\Gh0st3.6自删除\Gh0st3.6自删除\gh0st\SEU_QQwry.cpp"
+"C:\Documents and Settings\Administrator\桌面\Gh0st3.6自删除\Gh0st3.6自删除\gh0st\ShellDlg.cpp"
+"C:\Documents and Settings\Administrator\桌面\Gh0st3.6自删除\Gh0st3.6自删除\gh0st\SystemDlg.cpp"
+"C:\Documents and Settings\Administrator\桌面\Gh0st3.6自删除\Gh0st3.6自删除\gh0st\TrayIcon.cpp"
+"C:\Documents and Settings\Administrator\桌面\Gh0st3.6自删除\Gh0st3.6自删除\gh0st\TrueColorToolBar.cpp"
+"C:\Documents and Settings\Administrator\桌面\Gh0st3.6自删除\Gh0st3.6自删除\gh0st\WebCamDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP3DC.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP3DD.tmp" with contents
+[
+/nologo /MD /GX /O2 /I "../common" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Release/" /Fp"Release/gh0st.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Documents and Settings\Administrator\桌面\Gh0st3.6自删除\Gh0st3.6自删除\gh0st\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP3DD.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP3DE.tmp" with contents
+[
+../common/zlib/zlib.lib SHLWAPI.LIB /nologo /subsystem:windows /incremental:no /pdb:"Release/企业版X2.2.pdb" /map:"Release/企业版X2.2.map" /machine:I386 /nodefaultlib:"msvcrt.lib" /out:"../Bin/企业版X2.2.exe" 
+".\Release\Audio.obj"
+".\Release\AudioDlg.obj"
+".\Release\BmpToAvi.obj"
+".\Release\Buffer.obj"
+".\Release\BuildServer.obj"
+".\Release\CpuUsage.obj"
+".\Release\FileManagerDlg.obj"
+".\Release\FileTransferModeDlg.obj"
+".\Release\gh0st.obj"
+".\Release\gh0stDoc.obj"
+".\Release\gh0stView.obj"
+".\Release\IniFile.obj"
+".\Release\InputDlg.obj"
+".\Release\IOCPServer.obj"
+".\Release\KeyBoardDlg.obj"
+".\Release\MainFrm.obj"
+".\Release\ScreenSpyDlg.obj"
+".\Release\Settings.obj"
+".\Release\SEU_QQwry.obj"
+".\Release\ShellDlg.obj"
+".\Release\StdAfx.obj"
+".\Release\SystemDlg.obj"
+".\Release\TrayIcon.obj"
+".\Release\TrueColorToolBar.obj"
+".\Release\WebCamDlg.obj"
+".\Release\gh0st.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP3DE.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Audio.cpp
+AudioDlg.cpp
+BmpToAvi.cpp
+Buffer.cpp
+BuildServer.cpp
+CpuUsage.cpp
+FileManagerDlg.cpp
+FileTransferModeDlg.cpp
+gh0st.cpp
+gh0stDoc.cpp
+gh0stView.cpp
+IniFile.cpp
+InputDlg.cpp
+IOCPServer.cpp
+KeyBoardDlg.cpp
+MainFrm.cpp
+ScreenSpyDlg.cpp
+Settings.cpp
+SEU_QQwry.cpp
+ShellDlg.cpp
+SystemDlg.cpp
+TrayIcon.cpp
+TrueColorToolBar.cpp
+WebCamDlg.cpp
+Linking...
+LINK : warning LNK4049: locally defined symbol "_memmove" imported
+LINK : warning LNK4049: locally defined symbol "_ceil" imported
+LINK : warning LNK4049: locally defined symbol "_strstr" imported
+LINK : warning LNK4049: locally defined symbol "_malloc" imported
+LINK : warning LNK4049: locally defined symbol "_free" imported
+LINK : warning LNK4049: locally defined symbol "_atoi" imported
+LINK : warning LNK4049: locally defined symbol "__mbscmp" imported
+LINK : warning LNK4049: locally defined symbol "_vsprintf" imported
+LINK : warning LNK4049: locally defined symbol "_atol" imported
+LINK : warning LNK4049: locally defined symbol "_wcslen" imported
+LINK : warning LNK4049: locally defined symbol "_wcscpy" imported
+LINK : warning LNK4049: locally defined symbol "__beginthreadex" imported
+
+
+
+<h3>Results</h3>
+企业版X2.2.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
